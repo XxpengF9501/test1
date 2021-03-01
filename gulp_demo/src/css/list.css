@@ -1,0 +1,203 @@
+body,html{
+  height: 100%;
+}
+.wrap{
+  width: 1200px;
+  margin: 0px auto;
+  height: 100%;
+}
+/* header */
+.header{
+  width: 100%;
+  background-color: black;
+  height: 60px;
+}
+.header .header_left{
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.header ul{
+  box-sizing: border-box;
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.header ul li{
+  height: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.header ul li:first-child{
+  margin: 20px 35px 0 0;
+}
+.header ul li:nth-child(2),.header ul li:nth-child(3){
+  line-height: 60px;
+  width: 120px;
+}
+.header ul li:last-child{
+  margin: 20px 0 0 10px;
+}
+.header ul li:last-child input{
+  width: 200px;
+  height: 25px;
+  border-radius: 25px 0 0 25px;
+  float: left;
+}
+.header ul li:last-child button{
+  width: 40px;
+  height: 25px;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  float: left;
+  background: url(../imgs/list/btn_search_03.jpg) no-repeat center center;
+  background-color: white;
+}
+.header .header_right{
+  float: right;
+  height: 100%;
+  width: 40%;
+}
+.header ol li{
+  float: left;
+  text-align: center;
+}
+.header ol li:first-child{
+  line-height: 60px;
+  width: 110px;
+}
+.header ol li:nth-child(2),.header ol li:nth-child(3){
+  width: 120px;
+  text-align: center;
+  line-height: 60px;
+  box-sizing: border-box;
+}
+.header ol li:nth-child(2) a{
+  padding: 0px 20px;
+  border-right: 1px #ccc solid;
+  border-left: 1px #ccc solid;
+}
+.header ol li:nth-child(2) a,.header ol li:nth-child(3) a{
+  color: white;
+}
+.header ol li:nth-child(4){
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 12px 0 0 20px;
+}
+.header ol li:nth-child(5){
+  box-sizing: border-box;
+  padding: 14px 0 0 20px;
+}
+
+/* nav */
+.nav{
+  width: 100%;
+  height: 60px;
+}
+.nav h1{
+  float: left;
+  line-height: 60px;color: #ccc;
+}
+.nav h1 a{
+  color: #ccc;
+}
+.nav h2{
+  float: right;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+
+/* banner */
+.banner{
+  width: 100%;
+  height: 50%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container img{
+  width: 100% !important;
+  height: 100%;
+}
+
+/* advertisement  */
+.ad{
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  margin: 20px 0;
+}
+.ad ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ad ul li{
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+/* lists */
+.lists{
+  width: 100%;
+}
+.lists img{
+  width: 200px;
+  height: 200px;
+}
+.pagination{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid red;
+}
+.lists h3{
+  width:100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* footer */
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1f2024;
+  padding: 34px 0 43px 0;
+  border-bottom: #ccc solid 1px;
+}
+.footer ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li{
+  width: 15%;
+  height: 100%;
+}
+.footer ul li:first-child{
+  width: 30%;
+}
+.footer ul li p{
+  font-size: 16px;
+  color: #545457;
+  margin-bottom: 20px;
+}
+.footer ul li div{
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.footer ul li div a{
+  color: white;
+  text-decoration: none;
+}

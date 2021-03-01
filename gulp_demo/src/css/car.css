@@ -1,0 +1,250 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+  }
+  /* header */
+  .header{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+  }
+  .header .header_left{
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  .header ul{
+    box-sizing: border-box;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .header ul li{
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+  }
+  .header ul li:first-child{
+    margin: 20px 35px 0 0;
+  }
+  .header ul li:nth-child(2),.header ul li:nth-child(3){
+    line-height: 60px;
+    width: 120px;
+  }
+  .header ul li:last-child{
+    margin: 20px 0 0 10px;
+  }
+  .header ul li:last-child input{
+    width: 200px;
+    height: 25px;
+    border-radius: 25px 0 0 25px;
+    float: left;
+  }
+  .header ul li:last-child button{
+    width: 40px;
+    height: 25px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    float: left;
+    background: url(../imgs/list/btn_search_03.jpg) no-repeat center center;
+    background-color: white;
+  }
+  .header .header_right{
+    float: right;
+    height: 100%;
+    width: 40%;
+  }
+  .header ol li{
+    float: left;
+    text-align: center;
+  }
+  .header ol li:first-child{
+    line-height: 60px;
+    width: 110px;
+  }
+  .header ol li:nth-child(2),.header ol li:nth-child(3){
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+    box-sizing: border-box;
+  }
+  .header ol li:nth-child(2) a{
+    padding: 0px 20px;
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+  }
+  .header ol li:nth-child(2) a,.header ol li:nth-child(3) a{
+    color: white;
+  }
+  .header ol li:nth-child(4){
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 12px 0 0 20px;
+  }
+  .header ol li:nth-child(5){
+    box-sizing: border-box;
+    padding: 14px 0 0 20px;
+  }
+
+  /* nav */
+  .nav{
+      height: 266px;
+  }
+  .nav img{
+    height: 266px;
+    border-bottom: 3px #ccc solid;
+  }
+
+  /* main */
+.main{
+    width: 100%;
+    margin-top: 3px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+.main .top{
+  background-color: white;
+  height: 76px;
+}
+.main ul{
+    height: 76px;
+    display: flex; 
+}
+.main ul li{
+    height: 100%;
+    line-height: 76px;
+}
+.main ul li:nth-child(1){
+    width: 560px;
+}
+.main ul li:nth-child(2){
+    width: 240px;
+}
+.main ul li:nth-child(3){
+    width: 180px;
+}
+.main ul li:nth-child(4){
+    width: 140px;
+}
+.main ul li:nth-child(5){
+    width: 100px;
+}
+.main .top{
+  margin-bottom: 20px;
+}
+.main .product{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main .product ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.product_msg{
+  background-color: white;
+}
+.main .product ul li{
+    display: flex;
+    align-items: center;
+}
+.main .product img{
+    width: 115px;
+    height: 115px;
+}
+.main .product input{
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.main .product button{
+  width: 35px;
+  height: 32px;
+  border: 1px solid #ccc;
+}
+.product_msg{
+    box-sizing: border-box;
+    padding-left: 35px;
+    width: 100%;
+    height: 230px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.total{
+  width: 100%;
+  height: 160px;
+  position: fixed;
+  bottom: 0px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  background-color: white;
+}
+.totalCal{
+  width: 100%;
+  height: 100%;
+  border-top: dashed #ccc 1px;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.totalCal span{
+  float: right;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+}
+.totalCal button{
+  float: right;
+  width: 210px;
+  height: 50px;
+  background-color: #0a83d7;
+  font-size: 24px;
+  line-height: 50px;
+  color: white;
+  border: none;
+}
+/* footer */
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1f2024;
+  padding: 34px 0 43px 0;
+  border-bottom: #ccc solid 1px;
+}
+.footer ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li{
+  width: 15%;
+  height: 100%;
+}
+.footer ul li:first-child{
+  width: 30%;
+}
+.footer ul li p{
+  font-size: 16px;
+  color: #545457;
+  margin-bottom: 20px;
+}
+.footer ul li div{
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.footer ul li div a{
+  color: white;
+  text-decoration: none;
+}

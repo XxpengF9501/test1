@@ -1,0 +1,238 @@
+body.html{
+  height: 100%;
+}
+.wrap{
+  width: 1200px;
+  margin: 0px auto;
+  height: 100%;
+}
+/* header */
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.header .left{
+  box-sizing: border-box;
+  padding-left: 120px;
+  float: left;
+  height: 100px;
+  width: 80%;
+}
+.header .right{
+  width: 20%;
+  height: 100px;
+  float: right;
+  background: url(../imgs/index/sony_logo02.jpg) no-repeat right 0px;
+}
+.header .left ul{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .left ul li a{
+  text-decoration: none;
+  color: white;
+}
+.header .left img{
+  margin: 25px 0px;
+}
+.header .right button:first-child{
+  position: relative;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.header .right input{
+  width: 160px;
+  height: 45px;
+  float: left;
+  border: #ccc solid 2px;
+  background-color: black;
+}
+.header .right button:last-child{
+  width: 45px;
+  height: 46px;
+  float: left;
+  border: #ccc solid 2px;
+  background-color: black;
+  border-left: 0px;
+}
+.product{
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  width: 960px;
+  height: 510px;
+  background-color: white;
+  z-index: 100;
+  display: none;
+}
+.product .product_nav{
+  width: 100%;
+  height: 60px;
+  background-color: #f0f1f2;
+}
+.product .product_nav ul{
+  height: 100%;
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* banner */
+
+
+/* main */
+.main{
+  width: 100%;
+  background-color: rgb(240, 241, 243);
+  padding-bottom: 40px;
+}
+.main .title{
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 26px;
+  font-weight: bold;
+  background: url(../imgs/index/song_lists_logo.png) no-repeat 500px center;
+}
+.main .left{
+  width: 50%;
+  float: left;
+}
+.main .left img{
+  width: 100%;
+}
+.main .right{
+  float: right;
+  width: 50%;
+}
+.main .right ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .right ul li{
+  width: 47%;
+  height: 340px;
+  background: url(../imgs/index/sony_lists03.png) no-repeat right top;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .right ul li:first-child,.main .right ul li:nth-child(2){
+  margin-bottom: 20px;
+}
+.clear{
+  clear:both;height:0;overflow:hidden;
+}
+
+/* content */
+.content{
+  width: 100%;
+}
+.news{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(240, 241, 243);
+  margin-top: 55px;
+  box-sizing: border-box;
+  padding: 15px 100px;
+}
+.news .unit{
+  width: 320px;
+  height: 540px;
+}
+.news .unit h2{
+  padding-left: 15px;
+  margin-bottom: 24px;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.news .unit ul{
+  width: 100%;
+}
+.news .unit ul li{
+  width: 100%;
+  height: 85px;
+  margin-bottom: 15px;
+}
+.news .unit ul li .img{
+  float: left;
+}
+.news .unit .img img{
+  width: 110px;
+  height: 85px;
+}
+.news .unit ul li .news_left{
+  width: 195px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 30px;
+  margin-left: 15px;
+}
+.news .unit ul li .date{
+  width: 75px;
+  height: 20px;
+  background-color: rgb(208, 209, 211);
+  font-size: 12px;
+  color: white;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+}
+.news .unit ul li .msg{
+  width: 100%;
+  font-size: 12px;
+  color: #595959;
+  float: left;
+}
+.part1,.part2,.part3{
+  float: left;
+}
+
+/* footer */
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1f2024;
+  padding: 34px 0 43px 0;
+  border-bottom: #ccc solid 1px;
+}
+.footer ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li{
+  width: 15%;
+  height: 100%;
+}
+.footer ul li:first-child{
+  width: 30%;
+}
+.footer ul li p{
+  font-size: 16px;
+  color: #545457;
+  margin-bottom: 20px;
+}
+.footer ul li div{
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.footer ul li div a{
+  color: white;
+  text-decoration: none;
+}
